@@ -12,18 +12,18 @@ const contexts = [
   },
   {
     context: require.context(
-      "../lite-module/app/(lite-module)/(tabs)",
+      "../project_litemodule/app/(lite-module)/(tabs)",
       true,
       /.*/,
     ),
     prefix: "(lite-module)",
   },
   {
-    context: require.context("../dca/app/(dca)", true, /.*/),
+    context: require.context("../project_dca/app/(dca)", true, /.*/),
     prefix: "(dca)",
   },
   {
-    context: require.context("../mobile-coip/app", true, /.*/),
+    context: require.context("../project_coip/app", true, /.*/),
     prefix: "(mobile-coip)",
   },
 ];
