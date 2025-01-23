@@ -1,0 +1,12 @@
+export const TabHomeIcon = require("./tab-home-icon.png");
+export const TabEquipmentIcon = require("./tab-equipment-icon.png");
+export const TabOrderIcon = require("./tab-order-icon.png");
+export const TabNotificationIcon = require("./tab-notification-icon.png");
+export const TabOtherIcon = require("./tab-other-icon.png");
+export const OrderTrackingIcon = require("./order-tracking-icon.png");
+export const KlikUTIcon = require("./klikut-icon.png");
+export const MonthlyReportIcon = require("./monthly-report-icon.png");
+export const EquipmentMonitoringIcon = require("./equipment-monitoring-icon.png");
+export const MyTicketIcon = require("./my-ticket-icon.png");
+export const MaintenanceManagementIcon = require("./maintenance-management-icon.png");
+export const BackgroundIcon = require("./background-icon.png");

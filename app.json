@@ -1,0 +1,43 @@
+{
+	"expo": {
+		"name": "UT Connect",
+		"slug": "ut-connect",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/icon-ios.png",
+		"scheme": "apps-ut-connect",
+		"userInterfaceStyle": "automatic",
+		"newArchEnabled": true,
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.unitedtractors.connect"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/images/icon-android.png",
+				"backgroundColor": "#ffffff"
+			},
+			"package": "com.unitedtractors.connect"
+		},
+		"web": {
+			"bundler": "metro",
+			"output": "static",
+			"favicon": "./assets/images/icon-ios.png"
+		},
+		"plugins": [
+			"expo-router",
+			[
+				"expo-splash-screen",
+				{
+					"image": "./assets/images/splash.png",
+					"imageWidth": 200,
+					"resizeMode": "contain",
+					"backgroundColor": "#ffffff"
+				}
+			]
+		],
+		"experiments": {
+			"typedRoutes": true
+		}
+	}
+}
